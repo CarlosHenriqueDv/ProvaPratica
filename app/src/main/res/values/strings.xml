@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProvaPratica</string>
+    <string name="txt_valor">Digite seu salário (R$)</string>
+    <string name="txt_salario">Qual será o percentual?</string>
+    <string name="txt_perc1">40%</string>
+    <string name="txt_perc2">45%</string>
+    <string name="tx_perc3">50%</string>
+    <string name="btb_novo_salario">MOSTRAR NOVO SALÁRIO</string>
+    <string name="txt_novosalario">Seu novo salário é R$</string>
+    <string name="btn_voltar">Voltar</string>
+</resources>

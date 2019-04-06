@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        tools:context=".Tela1">
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="@string/txt_valor"
+            android:ems="10"
+            android:id="@+id/txt_salario"/>
+    <TextView
+            android:text="@string/txt_salario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView6"/>
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/percentuais">
+        <RadioButton
+                android:text="@string/txt_perc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/rdb_perc1" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/txt_perc2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/rdb_perc2" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/tx_perc3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/rdb_perc3" android:layout_weight="1"/>
+    </RadioGroup>
+    <Button
+            android:text="@string/btb_novo_salario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/btn_calc"/>
+</LinearLayout>
